@@ -45,7 +45,7 @@
     <section class="section-1 sec-1-background">
       <div class="container sec-1-flex">
         <h1 class="sec-1-headline">EFEKTYWNE ROZWIĄZANIA <br />DLA WASZEGO BIZNESU</h1>
-        <button class="order-button" type="button">Zamów usługę</button>
+        <button class="order-button" type="button" data-modal-open>Zamów usługę</button>
       </div>
     </section>
     <section class="section">
@@ -97,13 +97,22 @@
         <p class="section-headline">Czym się zajmujemy</p>
         <ul class="sec-3-flex">
           <li class="sec-3-grup">
-            <img src="./images/thing1.jpg" alt="pisanie kodu programu" width="370" height="294" />
+            <div class="sec-3-img-box">
+              <img src="./images/thing1.jpg" alt="pisanie kodu programu" width="370" height="294" />
+              <p class="sec-3-img-text">APLIKACJE KOMPUTEROWE</p>
+            </div>
           </li>
           <li class="sec-3-grup">
-            <img src="./images/thing2.jpg" alt="testowanie aplikacji" width="370" height="294" />
+            <div class="sec-3-img-box">
+              <img src="./images/thing2.jpg" alt="testowanie aplikacji" width="370" height="294" />
+              <p class="sec-3-img-text">APLIKACJE MOBILNE</p>
+            </div>
           </li>
           <li class="sec-3-grup">
-            <img src="./images/thing3.jpg" alt="projektowanie strony" width="370" height="294" />
+            <div class="sec-3-img-box">
+              <img src="./images/thing3.jpg" alt="projektowanie strony" width="370" height="294" />
+              <p class="sec-3-img-text">ROZWIĄZANIA GRAFICZNE</p>
+            </div>
           </li>
         </ul>
       </div>
@@ -326,13 +335,17 @@
     </div>
   </footer>
 
-  <div class="container">
-    <div class="backdrop" data-modal>
-      <div class="modal-body">
-        <button class="modal-x-button" data-modal-close>x</button>
-      </div>
+
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal-body">
+      <button type="button" class="modal-x-button" data-modal-close>
+        <svg class="x-symbol">
+          <use class="" href="./images/symbol-defs.svg#icon-close-symbol"></use>
+        </svg>
+      </button>
     </div>
   </div>
+
   <script src="./js/modal.js"></script>
 
 </body>
