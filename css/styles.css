@@ -86,7 +86,9 @@ p {
 
 .link-nav:hover,
 .link-nav:focus {
-    color: var(--main-blue)
+    color: var(--main-blue);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1)
 }
 
 
@@ -115,6 +117,8 @@ p {
 .nav-text-2:hover,
 .nav-text-2:focus {
     fill: var(--main-blue);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .nav-placement-1 {
@@ -149,6 +153,8 @@ p {
     width: 100%;
     border-bottom: solid 4px var(--main-blue);
     border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 
 .nav-under-active {
@@ -204,6 +210,8 @@ p {
 .botton-address-2:hover,
 .botton-address-2:focus {
     color: var(--white);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 .footer-sec {
     padding-top: 60px;
@@ -232,6 +240,8 @@ p {
 .social-icon-background:hover,
 .social-icon-background:focus {
     background-color: var(--main-blue);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 .footer-flex-1 {
     display: flex;
@@ -292,6 +302,8 @@ p {
     cursor: pointer;
     color: var(--main-blue);
     background-color: var(--white);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 .sec-2-flex {
     display: flex;
@@ -424,6 +436,8 @@ p {
 .sec-4-icon-background:focus {
     fill: var(--white);
     background-color: var(--main-blue);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 
 .sec-4-icon-flex {
@@ -461,6 +475,8 @@ p {
 .sec-5-logo:focus {
     fill: var(--main-blue);
     border-color: var(--main-blue);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 
 
@@ -493,6 +509,8 @@ p {
 .selector-button:focus {
     background-color: var(--main-blue);
     color: var(--white);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 .product-flex {
     display: flex;
@@ -518,6 +536,8 @@ p {
 }
 .product-img-box:hover .product-img-fllow {
     transform: translateY(0);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 .product-fllow-text {
     padding: 49px 45px 49px 20px;
@@ -530,6 +550,8 @@ p {
 
 .sec-3-produkt-box-shadow:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4,0,0.2,1);
 }
 .product-name {
     color: var(--lighter-black);
