@@ -77,6 +77,8 @@ p {
 }
 
 .link-nav {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-size: 14px;
     font-weight: 500;
@@ -139,9 +141,14 @@ p {
     display: flex;
     align-items: center;
 }
-.header-icon {
+.header-icon-1 {
     height: 12px;
     width: 16px;
+    margin-right: 10px;
+}
+.header-icon-2 {
+    height: 16px;
+    width: 10px;
     margin-right: 10px;
 }
 
